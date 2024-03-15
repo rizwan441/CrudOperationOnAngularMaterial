@@ -1,0 +1,8 @@
+<h1>Delete User</h1>
+<div>
+  <p>Are you sure you want to delete user "{{ data.name }}"?</p>
+</div>
+<div>
+  <button mat-button color="primary" (click)="onDelete()">Delete</button>
+  <button mat-button color="warn" (click)="onCancel()">Cancel</button>
+</div>
